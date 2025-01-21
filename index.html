@@ -3,54 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name's Portfolio</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
-        header { background: #007acc; color: white; padding: 1rem 0; text-align: center; }
-        nav { text-align: center; margin: 1rem 0; }
-        nav a { margin: 0 10px; text-decoration: none; color: #007acc; font-weight: bold; }
-        section { padding: 2rem; max-width: 800px; margin: auto; }
-        footer { text-align: center; padding: 1rem; background: #f4f4f4; }
-    </style>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
     <header>
-        <h1>Denis Mwaniki</h1>
-        <p>Data Analyst | Machine Learning Enthusiast | Developer</p>
+        <nav>
+            <ul style="list-style: none; display: flex; justify-content: center; padding: 0; margin: 0; background-color: #007acc;">
+                <li style="margin: 0 15px;"><a href="#about" style="text-decoration: none; color: white; font-weight: bold;">About</a></li>
+                <li style="margin: 0 15px;"><a href="#projects" style="text-decoration: none; color: white; font-weight: bold;">Projects</a></li>
+                <li style="margin: 0 15px;"><a href="#contact" style="text-decoration: none; color: white; font-weight: bold;">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            Hi! I'm a passionate research & data analytics specialist. I enjoy working on projects that 
-            blend creativity with technology, particularly in research, data science, and machine learning.
-        </p>
+    <!-- About Section -->
+    <section id="about" style="padding: 2rem; text-align: center;">
+        <h1 style="color: #007acc;">Welcome to My Portfolio</h1>
+        <p>Hi! I'm a passionate research & data analytics specialist. I enjoy working on projects that blend creativity with technology, particularly in research, data science, and machine learning.</p>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><strong><a href="https://github.com/Neshmwaniki/project1">Project 1</a></strong>: Name Gender Classification.</li>
-            <li><strong><a href="https://github.com/Neshmwaniki/project2">Project 2</a></strong>: Analysis of last season's (2024-2025) team performance to highlight costly decisions in raking up best possible points.</li>
-            <li><strong><a href="https://github.com/Neshmwaniki/project3">Project 3</a></strong>: Brief description of the project.</li>
-        </ul>
+    <!-- Projects Section -->
+    <section id="projects" style="padding: 2rem;">
+        <h2 style="text-align: center; color: #007acc;">Projects</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+            <!-- Project 1 -->
+            <div style="max-width: 300px; text-align: center;">
+                <img src="path-to-image1.jpg" alt="Project 1" style="width: 100%; border: 1px solid #ccc; border-radius: 8px;">
+                <h3><a href="https://github.com/Neshmwaniki/Customers-Name-Gender-Classification/blob/main/Gender%20Identification-%20Name%20based.ipynb" style="text-decoration: none; color: #007acc;">Project 1</a></h3>
+                <p>A brief description of this project.</p>
+            </div>
+            <!-- Project 2 -->
+            <div style="max-width: 300px; text-align: center;">
+                <img src="path-to-image2.jpg" alt="Project 2" style="width: 100%; border: 1px solid #ccc; border-radius: 8px;">
+                <h3><a href="https://github.com/Neshmwaniki/FPL-Team-Analysis/blob/main/Fantasy%20Premier%20League%20Analysis.ipynb" style="text-decoration: none; color: #007acc;">Project 2</a></h3>
+                <p>A brief description of this project.</p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>
-            Feel free to reach out at <a href="mailto:your.d.munene.mwaniki@gmail.com">your.email@d.munene.mwaniki@gmail.com</a>.
-        </p>
+    <!-- Contact Section -->
+    <section id="contact" style="padding: 2rem; text-align: center;">
+        <h2 style="color: #007acc;">Contact</h2>
+        <p>Feel free to reach out!</p>
+        <a href="mailto:your.d.munene.mwaniki@gmail.com" style="display: inline-block; background: #007acc; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">Email Me</a>
     </section>
 
-    <footer>
-        <p>&copy; 2025 Your Name</p>
+    <!-- Footer -->
+    <footer style="text-align: center; background: #333; color: white; padding: 1rem;">
+        <p>© 2025 Denis Mwaniki</p>
     </footer>
 </body>
 </html>
