@@ -8,3 +8,7 @@
 ### 🛠️ Skills
 - Python, R, SQL
 - Data Analysis, Machine Learning
+
+
+### Contact
+Reach me at [d.munene.mwaniki@gmail.com](mailto:d.munene.mwaniki@gmail.com).
