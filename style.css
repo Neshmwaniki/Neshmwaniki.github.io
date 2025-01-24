@@ -66,21 +66,43 @@ footer {
 .project-card img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-/* LinkedIn button styling */
-a.linkedin-button {
+/* General button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    transition: background 0.3s ease, transform 0.2s ease;
+    text-align: center;
+}
+
+/* LinkedIn button */
+.linkedin-button {
     background: #0077b5;
 }
 
-a.linkedin-button:hover {
-    background: #005582; /* Darker LinkedIn blue on hover */
+.linkedin-button:hover {
+    background: #005582; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect */
 }
 
-/* Email button styling */
-a.email-button {
+/* Email button */
+.email-button {
     background: #28a745;
 }
 
-a.email-button:hover {
+.email-button:hover {
     background: #1e7a35; /* Darker green on hover */
+    transform: scale(1.05); /* Slight zoom effect */
 }
 
+/* Button container layout */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+    margin-top: 1rem;
+}
