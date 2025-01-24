@@ -66,19 +66,21 @@ footer {
 .project-card img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+/* LinkedIn button styling */
 a.linkedin-button {
-    display: inline-block;
     background: #0077b5;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    margin-top: 1rem;
-    transition: background 0.3s ease;
 }
 
 a.linkedin-button:hover {
-    background: #005582; /* Darker shade of LinkedIn blue */
+    background: #005582; /* Darker LinkedIn blue on hover */
+}
+
+/* Email button styling */
+a.email-button {
+    background: #28a745;
+}
+
+a.email-button:hover {
+    background: #1e7a35; /* Darker green on hover */
 }
 
