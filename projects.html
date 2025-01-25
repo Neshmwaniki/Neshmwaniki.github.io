@@ -4,74 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
-    <!-- Add CSS and Font Awesome links -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         body {
-            font-family: Roboto, sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
-
-        header {
+        nav {
             background: #007acc;
-            padding: 1rem;
+            padding: 10px;
             text-align: center;
         }
-
-        header h1 {
+        nav a {
             color: white;
-            margin: 0;
+            padding: 10px 20px;
+            text-decoration: none;
+            background: #005582;
+            border-radius: 5px;
+            margin: 5px;
         }
-
-        .project-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            padding: 2rem;
+        nav a:hover {
+            background: #004466;
         }
-
-        .project-card {
-            background: #f7f7f7;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 1rem;
-            width: 300px;
-            text-align: center;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-
         .project-card img {
             width: 100%;
             height: auto;
-            border-radius: 8px;
+            border-radius: 10px;
         }
-
-        .project-card h3 {
-            color: #007acc;
-        }
-
-        .project-card a {
-            display: inline-block;
-            margin-top: 10px;
-            text-decoration: none;
-            color: #007acc;
-            font-weight: bold;
+        .project-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <nav style="background: #007acc; padding: 10px; text-align: center;">
-        <a href="index.html" style="color: white; padding: 10px 20px; text-decoration: none; background: #005582; border-radius: 5px;">About</a>
-        <a href="projects.html" style="color: white; padding: 10px 20px; text-decoration: none; background: #0077b5; border-radius: 5px;">Projects</a>
-        <a href="#contact" style="color: white; padding: 10px 20px; text-decoration: none; background: #28a745; border-radius: 5px;">Contact</a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="index.html#contact">Contact</a>
     </nav>
-    <header>
-        <h1>Explore My Work</h1>
-    </header>
-    <div class="project-container">
-        <!-- Example Project -->
+
+    <h1 style="text-align: center; margin-top: 20px;">My Projects</h1>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+        <!--div class="project-card">
+            <img src="images/project1.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>A brief description of Project 1.</p>
+        </div-->
         <div class="project-card">
             <img src="images/project1.jpg" alt="Project 1">
             <h3>Project 1</h3>
@@ -96,7 +79,7 @@
             <p>Fantasy Premier League Team Analysis.</p>
             <h3><a href="https://github.com/Neshmwaniki/FPL-Team-Analysis/blob/main/Fantasy%20Premier%20League%20Analysis.ipynb">Project 4</a></h3>
         </div>
-        <!-- Add more projects as needed -->
     </div>
 </body>
 </html>
+
