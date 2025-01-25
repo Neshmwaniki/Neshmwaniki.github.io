@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     background-color: #f4f4f9;
     color: #333;
@@ -51,6 +51,17 @@ footer {
     nav li {
         margin: 10px 0;
     }
+}
+nav a {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+    transform: scale(1.05);
+    background: #004466; /* Darker shade for hover */
 }
 .project-card img {
     width: 300px; /* Set a fixed width */
